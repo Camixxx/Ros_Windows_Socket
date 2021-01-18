@@ -1,0 +1,25 @@
+<!-- 
+  Turtlebot navigation simulation:
+  - stage
+  - map_server
+  - move_base
+  - static map
+  - amcl
+  - rviz view
+ -->
+<launch>
+
+  <!-- Name of the map to use (without path nor extension) and initial position -->
+ 
+  <node pkg="turtlesim" name="turtle" type="turtlesim_node">
+
+  </node>
+
+  <node pkg="rosserial_server" type="socket_node" name="rosserial_server">
+  </node>
+
+  <!--
+    <node pkg="rosserial_python" type="message_info_service.py"
+          name="rosserial_message_info" />
+    -->
+</launch>
