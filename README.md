@@ -51,7 +51,7 @@ template<class Hardware,
 ```
 如果我们要传输图片，后期肯定要修改容量。
 
-### 3. JHLRosTest.cpp
+### 3. RosTest.cpp
 示例文件：
 
 #### 连接到远程边缘端的ROS节点。
