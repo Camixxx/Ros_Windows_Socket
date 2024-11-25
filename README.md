@@ -20,7 +20,7 @@
 
 <br>
 
-## JHLRosTest
+## RosTest
 ---
 这是我用ros_lib写的通讯测试，调整一下应该就可以直接运行。
 
